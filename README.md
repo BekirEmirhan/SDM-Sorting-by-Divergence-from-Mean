@@ -2,16 +2,21 @@
 
 <b>Contents
 <br></br>
-1- File structure of Repository
+1- Test Environment
 <br></br>
-2- Data Availability
+2- File structure of Repository
 <br></br>
-3- Data Description
+3- Data Availability
 <br></br>
-4- Testing and Getting Results from Sorting Algorithms
+4- Data Description
+<br></br>
+5- Testing and Getting Results from Sorting Algorithms
 <br></br>
 <br></br></b>
-<h1><b>1- File structure of Repository</b></h1>
+<h1><b>1- Test Environment</b></h1>
+All of the test are conducted on Ubuntu 16.04 operating system with 8gb RAM and 8th generation i5 core. Also, we used g++ compiler with version of 5.4.0.
+<br></br>
+<h1><b>2- File structure of Repository</b></h1>
 
 We design the repository as a 3 section to make everyting clearly. Sorting algorithms that used in paper , data generator scripts and sample mini data for testing.
 <br></br>
@@ -21,10 +26,10 @@ It consists of 5 .cpp files which are all of the sorting algorithms used in pape
 Includes creating data scripts for each distribution used in paper. For example, gaussian.m script genarates all of gaussian distrubuted data.
 <h3><b>C- Sample Data</b></h3>
 Includes small portion of the data used in validating and testing our sorting algorithm.
-<h1><b>2- Data Availability</b></h1>
+<h1><b>3- Data Availability</b></h1>
 We open dataset in kaggle to store all of the data. The data set consists of gaussian, uniform and 5 special cases. <br></br>
 The link is : https://www.kaggle.com/datasets/bekiremirhanakay/benchmark-dataset-for-sorting-algorithms
-<h1><b>3- Data Description</b></h1>
+<h1><b>4- Data Description</b></h1>
 There are 1212 different arrays in each of the two data
 sets. These arrays are categorized into 5 different groups. In
 the first group, we have 100 arrays with different sizes. The
@@ -52,7 +57,7 @@ the first data set with a uniform distribution, the numbers
 vary randomly between 0 and 30000000. A standard normal
 distribution was used for the numbers with a Gaussian
 distribution.
-<h1><b>4- Testing and Getting Results from Sorting Algorithms</b></h1>
+<h1><b>5- Testing and Getting Results from Sorting Algorithms</b></h1>
 We give simple testing execution for algorithm-3 all process will be same process for other algorithms.
 <br></br>
 Firstly, compile the code in linux terminal as : &nbsp;&nbsp;&nbsp;g++ SDM.cpp
