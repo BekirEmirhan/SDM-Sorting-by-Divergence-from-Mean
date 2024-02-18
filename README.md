@@ -58,7 +58,7 @@ vary randomly between 0 and 30000000. A standard normal
 distribution was used for the numbers with a Gaussian
 distribution.
 <h1><b>5- Testing and Getting Results from Sorting Algorithms</b></h1>
-We provide simple testing execution for algorithm-3 all process of the teseting process will be same for other algorithms.
+We provide simple testing execution for algorithm-3 all process of the testing process will be same for other algorithms.
 <br></br>
 Firstly, compile the code in linux terminal as : &nbsp;&nbsp;&nbsp;g++ SDM.cpp
 <br></br>
