@@ -4,7 +4,7 @@
 <br></br>
 1- Test Environment
 <br></br>
-2- File structure of Repository
+2- File Structure of Repository
 <br></br>
 3- Data Availability
 <br></br>
@@ -16,9 +16,9 @@
 <h1><b>1- Test Environment</b></h1>
 All of the test are conducted on Ubuntu 16.04 operating system with 8gb RAM and 8th generation i5 core. Also, we used g++ compiler with version of 5.4.0.
 <br></br>
-<h1><b>2- File structure of Repository</b></h1>
+<h1><b>2- File Structure of Repository</b></h1>
 
-We design the repository as a 3 section to make everyting clearly. Sorting algorithms that used in paper , data generator scripts and sample mini data for testing.
+We design the repository as a 3 section to make everyting clearly. Sorting algorithms that used in paper, data generator scripts and sample mini data for testing.
 <br></br>
 <h3><b>A- Sorting Algorithms</b></h3>
 It consists of 5 .cpp files which are all of the sorting algorithms used in paper. These algorithms are SDM, Dual Pivot Quicksort, Block Insertion Sort,Mergesort, Quicksort.
@@ -58,7 +58,7 @@ vary randomly between 0 and 30000000. A standard normal
 distribution was used for the numbers with a Gaussian
 distribution.
 <h1><b>5- Testing and Getting Results from Sorting Algorithms</b></h1>
-We give simple testing execution for algorithm-3 all process will be same process for other algorithms.
+We provide simple testing execution for algorithm-3 all process of the teseting process will be same for other algorithms.
 <br></br>
 Firstly, compile the code in linux terminal as : &nbsp;&nbsp;&nbsp;g++ SDM.cpp
 <br></br>
@@ -67,5 +67,5 @@ Secondly, try with 1 million gaussian input with writing : &nbsp;&nbsp;&nbsp;./a
 Output of the code is the time of the execution of the algorithm in terms of second
 
 <h3><b>Citation:</b></h3>
-Please give an refernces for the using the dataset to authors of the dataset:
+Please give an references for the using the dataset to authors of the dataset:
 Bekir Emirhan Akay,Nermin Kartli,Sahin Emrah Amrahov,Yilmaz Ar
